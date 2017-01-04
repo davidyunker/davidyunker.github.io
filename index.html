@@ -80,7 +80,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">My development story</h2>
                     <hr class="light">
-                    <p class="text-faded">After more than 10 years in journalism, I was ready for new challenges, a new field and a chance to really <i>learn</i> something <i>new</i>. Nashville Software School offered the chance to jump-start that transition to a new life and I've embraced the challenges that have come with taking the leap into a completely different field. Software development was intriguing to me because it offers me the chance to do something I've always enjoyed — understanding how things "tick" and figuring out a better way to achieve something. With my background as a copy editor, I've always enjoyed improving upon an existing product and working to "refactor." And the same adrenaline rush I used to get from being the first to deliver a breaking news story is now the rush I get from squashing a bug in my code or finally get a feature to work. </p>
+                    <p class="text-faded">After more than 10 years in journalism, I was ready for new challenges, a new field and a chance to really <i>learn</i> something <i>different</i>. Nashville Software School offered the chance to jump-start that transition to a new life and I've embraced the challenges that have come with taking the leap into a completely different field. Software development was intriguing to me because it offers me the chance to do something I've always enjoyed — understanding how things "tick" and figuring out a better way to achieve something. With my background as a copy editor, I've always enjoyed improving upon an existing product and working to "refactor." And the same adrenaline rush I used to get from being the first to deliver a breaking news story is now the rush I get from squashing a bug in my code or finally get a feature to work. </p>
                     <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button">See my work</a>
                 </div>
             </div>
@@ -98,21 +98,23 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="https://github.com/davidyunker/backendcapstone" class="portfolio-link" data-toggle="modal">
+
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <img src="img/portfolio/thumbnails/WhatToDrink.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="https://github.com/NSSNamespace" class="portfolio-link" data-toggle="modal">
-                        <img src="img/portfolio/thumbnails/bangazon.jpg"" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://before-you-go.firebaseapp.com/"" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
 
                         <img src="img/portfolio/thumbnails/beforeyougo.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <img src="img/portfolio/thumbnails/bangazon.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
             </div>
         </div>
     </section>
@@ -262,6 +264,100 @@
 
         </div>
     </section>
+
+        <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>What Should I Drink?</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/thumbnails/WhatToDrink.jpg" class="img-responsive img-centered" alt="">
+                            <p>What Should I Drink? is an application created using C#, .Net Core, MVC, jQuery and identity framework. The application allows a user to find a beer to drink based on the time of year, how they're feeling and what type of night the user is seeking.</p>
+                            <ul class="list-inline item-details">
+                                <li>Github:
+                                    <strong><a href="https://github.com/davidyunker/backendcapstone" target="_blank">Source code</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Before You GO</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/thumbnails/beforeyougo.jpg" class="img-responsive img-centered" alt="">
+                            <p>An application for Pokemon Go users to plan and track their favorite routes for catching Pokemon, built using AngularJS, Firebase and Materialize. The application also uses the Google Maps Distance Matrix API, Weather Underground API, Poke API and OAuth.io. </p>
+                            <ul class="list-inline item-details">
+                                <li>Link:
+                                    <strong><a href="https://before-you-go.firebaseapp.com/#/login" target="_blank">Before You GO</a>
+                                    </strong>
+                                </li>
+                                <li>Github:
+                                    <strong><a href="https://github.com/davidyunker/front-end-capstone" target="_blank">Source code</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Bangazon!</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/thumbnails/bangazon.jpg" class="img-responsive img-centered" alt="">
+                            <p>The initial Bangazon site is an application that simulates an online retailer like Amazon. In the application, users are able to register as a customer, add products and simulate purchasing products listed by other customers. The application uses the .Net framework, MVC pattern and SQLite. </p>
+                            <ul class="list-inline item-details">
+                                <li>Github:
+                                    <strong><a href="https://github.com/NSSNamespace/Initial_Bangazon_Site" target="_blank">Source code</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
