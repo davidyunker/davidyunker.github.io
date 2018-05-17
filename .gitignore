@@ -4,3 +4,4 @@ lib/.sass_cache/
 app/values/FirebaseKeys.js
 node_modules
 bower_components
+.DS_Store
